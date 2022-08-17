@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valyuta converter</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <img src="img/Asset 1@3x 1.png" alt="" />
+      </div>
+      <div class="container links">
+        <a href="" class="active">БАНК</a>
+        <a href="">БИЗНЕС</a>
+        <a href="">ИНВЕСТИЦИИ</a>
+        <a href="">СТРАХОВАНИЕ</a>
+        <a href="">МОБАЙЛ</a>
+        <a href="">ПУТЕШЕСТВИЯ</a>
+        <a href="">РАЗВЛЕЧЕНИЯ</a>
+      </div>
+      <div>
+        <button>ВОЙТИ</button>
+      </div>
+    </header>
+    <main>
+      <div class="box">
+        <h1>Конвертер валют онлайн</h1>
+        <article>
+          <section class="group1">
+            <p>У меня есть</p>
+            <button id="rub1" class="default">RUB</button>
+            <button id="usd1">USD</button>
+            <button id="eur1">EUR</button>
+            <button id="gbp1">GBP</button>
+          </section>
+          <section class="group2">
+            <p>Хочу приобрести</p>
+            <button id="rub2">RUB</button>
+            <button id="usd2" class="default">USD</button>
+            <button id="eur2">EUR</button>
+            <button id="gbp2">GBP</button>
+          </section>
+        </article>
+        <aside>
+          <div>
+            <input
+              type="text"
+              value="0"
+              onfocus="this.value=''"
+              class="first input"
+            />
+            <p></p>
+          </div>
+          <div>
+            <input
+              type="text"
+              value="0"
+              onfocus="this.value=''"
+              class="second input"
+            />
+            <p></p>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
